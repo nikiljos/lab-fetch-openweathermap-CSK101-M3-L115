@@ -24,27 +24,43 @@ code{
     padding: 50px 0 30px 0;
 }
 
+.form div,.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.icon{
+    max-width: 1.5rem;
+}
+
 #location-input{
     color: #ffffff;
     background-color: #00000078;
     border: none;
     padding: 10px;
-    border-radius: 10px 0 10px 0;
+    border-radius: 10px 0;
 }
 
-#location-input:focus{
+#location-input:focus{  
     outline: none;
     border-bottom: 2px solid #e08e00 ;
 }
 
-#search{
+.btn{
+    width: fit-content;
     cursor: pointer;
-    padding: 10px;
+    padding: 5px;
+    margin: 5px;
 }
-#search:hover{
-    background-color: #ffffff85;
-    
-    border-radius: 10px 0 10px 0;
+.btn:hover{
+    background-color: #ffffff85;  
+    border-radius: 10px 0;
+}
+
+#current-loc{
+    margin: 10px auto;
 }
 
 .content *{

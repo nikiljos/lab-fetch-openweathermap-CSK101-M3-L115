@@ -4,15 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   <title>Weather app</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="container">
     <div class="form">
-      <input type="text" id="location-input">
-      <span id="search">→</span>
+      <div>
+        <input type="text" id="location-input" placeholder="Enter location">
+        <span id="search" class="btn"><img src="assets/arrow.svg" alt="→" class="icon"></span>
+      </div>
+      
+      <span id="current-loc" class="btn"><img src="assets/location.svg" class="icon">Current Location</span>
     </div>
     <div id="error"></div>
     
