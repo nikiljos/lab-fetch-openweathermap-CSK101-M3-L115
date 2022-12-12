@@ -9,6 +9,23 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="container">
+    <div class="form">
+      <input type="text" id="location-input">
+      <span id="search">→</span>
+    </div>
+    <div id="error"></div>
+    
+    <div class="content">
+      <div id="place"></div>
+      <div id="time"></div>
+      <div class="temp" id="temp-full"><span class="big"><span id="temp"></span>°</span>C</div>
+      <div id="desc"></div>
+      <div id="high-low"></div>
+    </div>
+  </div>
+  
+  <script src="env.js"></script>
   <script src="weather.js"></script>
 </body>
 </html>
