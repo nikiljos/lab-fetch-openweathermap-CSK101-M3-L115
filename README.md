@@ -1,5 +1,7 @@
 ![Logo-nav](https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/Kalvium-Logo.png)
 
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.nikjos.in/open?repo=nikiljos/lab-fetch-openweathermap-CSK101-M3-L115)
+
 # Kalvium Project-Builder | JS | WEATHER FORECAST
 
 We have learned all the important concepts in JavaScript. Now lets work with our project builder in building a Weather forcast app, applying all of the concepts we have just learned.
